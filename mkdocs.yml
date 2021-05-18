@@ -360,6 +360,9 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 
+static_templates:
+  - 404.html
+
 # Plugins
 plugins:
 #  - search
@@ -374,6 +377,7 @@ plugins:
       cover_logo: 'https://cloud-cdn.nebula-graph.com.cn/nebula-for-pdf.png'
       output_path: pdf/NebulaGraph-CN.pdf
       show_anchors: true
+      toc_level: 3
 
 extra_javascript:
   - js/version-select.js
