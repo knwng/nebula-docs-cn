@@ -38,6 +38,9 @@ extra:
     base220: 2.2.0
   
 nav:
+
+  - 本书更新版本: git-version.md
+
   - 前言: 
       - 图: 0.foreground/0-graph.md
       - 图数据库: 0.foreground/1-graph-database.md
@@ -304,10 +307,13 @@ nav:
       - 关于Raft的简单介绍: 20.appendix/4.raft.md
       - VID: 20.appendix/7.vid.md
       - 分片ID: 20.appendix/5.partition.md
-      - 年表: 20.appendix/9.history.md
       - 注释: 20.appendix/comments.md
       - 区分大小写: 20.appendix/identifier-case-sensitivity.md
       - 关键字: 20.appendix/keywords-and-reserved-words.md
+      - 年表: 20.appendix/9.history.md
+  
+
+
 
   - PDF: ./pdf/NebulaGraph-CN.pdf
 
@@ -358,6 +364,7 @@ static_templates:
 # Plugins
 plugins:
   - macros
+  - git-revision-date-localized
   - with-pdf:
       copyright: 2021 Vesoft Inc.
       cover_subtitle: 2.0.2
