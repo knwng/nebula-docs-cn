@@ -24,7 +24,6 @@ jobs:
       - name: gh-pages
         run: | 
           git branch
-          git rebase master
           mkdocs gh-deploy
 
       - name: Compress
