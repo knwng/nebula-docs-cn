@@ -356,9 +356,7 @@ static_templates:
 
 # Plugins
 plugins:
-#  - search
   - macros
-  - git-revision-date-localized
   - with-pdf:
       copyright: 2021 Vesoft Inc.
       cover_subtitle: 2.0.2
